@@ -1,0 +1,36 @@
+# ---- Keil / MDK 编译产物 ----
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.lnp
+*.htm
+*.lst
+*.map
+*.dep
+*.iex
+*.build_log.htm
+*.sbr
+*.tra
+RTE/_*/
+
+# ---- Keil 本机窗口布局 / 用户设置（含用户名，别推）----
+*.uvguix.*
+*.uvoptx
+*.bak
+~RF*.TMP
+*.TMP
+
+# ---- 调试与日志 ----
+*.log
+*.dbgconf
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.vs/
+.idea/
+Thumbs.db
+desktop.ini
